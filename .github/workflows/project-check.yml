@@ -22,7 +22,6 @@ jobs:
     - name: project check
       run: |
         npm i
-        npm run clearCache
         npm run test:e2e
       env:
         CI: true
